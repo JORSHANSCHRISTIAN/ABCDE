@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+header {
+    background: #000;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-image: url("/resources/images/coffee and laptop.png");
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.about {
+    display: flex;
+    padding: 60px 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-content {
+    margin-left: 40px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00bfa6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skill-bars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.skill {
+    margin: 0 20px;
+    width: 150px;
+}
+
+.skill h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: #333;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 10px;
+    background: #00bfa6;
+}
+
+.counters {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    margin: 0 20px;
+}
+
+.counter h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: #444;
+}
+
+.cta {
+    background-image: url("/resources/images/photography.png");
+}
+
+footer {
+    background: #000;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    width: 30%;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.socials a {
+    margin-right: 10px;
+}
